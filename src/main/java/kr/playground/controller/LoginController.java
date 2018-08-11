@@ -19,7 +19,7 @@ public class LoginController {
 		String clientId = "qXqHpMUmMQgSY8abI1g6";// 애플리케이션 클라이언트 아이디값";
 		String redirectURI = "";
 		try {
-			redirectURI = URLEncoder.encode("http://localhost:8080/callback",
+			redirectURI = URLEncoder.encode("http://13.209.50.22:8080/callback",
 					"UTF-8");
 		} catch (UnsupportedEncodingException e) {
 			return "redirect:/";
